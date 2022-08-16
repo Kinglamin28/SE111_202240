@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Lamin sanyang, king lamin" >
-    <meta name="description" content="About Me" >
+    <meta name="author" content="Lamin sanyang, king lamin">
+    <meta name="description" content="Multi Page Bio">
 
-    <title>W2 | Bio</title>
+    <title>MULTI PAGE|BIO</title>
 
+    
     <!--in-document styling; loads in head so styles apply as content loads-->
     <style>
         /*in here we must write in CSS*/
@@ -18,43 +20,53 @@
                 *by CLASS attribute     ex: coming in week 3 :]
         */
 
-        div { /*applies to ALL divs in the page*/
-            border:1px solid black;
-            padding:10px; /*adds 10px of space to all 4 sides inbetween content & border*/
-            margin:5px;/*adds 5px of space between elements (space added outside of border)*/
+        div {
+            /*applies to ALL divs in the page*/
+            border: 1px solid black;
+            padding: 10px;
+            /*adds 10px of space to all 4 sides inbetween content & border*/
+            margin: 5px;
+            /*adds 5px of space between elements (space added outside of border)*/
         }
 
-        #wrapper {/*# specifies ID name, only applies to single element with that ID */
+        #wrapper {
+            /*# specifies ID name, only applies to single element with that ID */
 
-            background-color:rgb(141, 141, 148);
+            background-color: rgb(141, 141, 148);
 
         }
 
-        #nav, #footer {/*can provide list or collection of elements to select*/
-            background-color:rgb(119, 155, 134); (200, 200, 200);
+        #nav,
+        #footer {
+            /*can provide list or collection of elements to select*/
+            background-color: rgb(119, 155, 134);
+            (200, 200, 200);
         }
 
-        a {/*styles all a (link) tags in page*/
-            text-decoration: none; /*removes the underline*/
-            font-size:20px;
-            margin-right:25px; /*adds 25 px of space to the right OF EACH link*/
+        a {
+            /*styles all a (link) tags in page*/
+            text-decoration: none;
+            /*removes the underline*/
+            font-size: 20px;
+            margin-right: 25px;
+            /*adds 25 px of space to the right OF EACH link*/
         }
 
-        /*4 default states --> :link, :hover, :active, :visited*/ 
+        /*4 default states --> :link, :hover, :active, :visited*/
         a:hover {
-            color:teal;
+            color: teal;
         }
 
         #footer {
-            font-size:10px;
-            text-align:center;
+            font-size: 10px;
+            text-align: center;
         }
-
     </style>
 </head>
 
 <body style="background-color:grey;">
-    <div id="wrapper"><!--this div holds and "wraps around/together" all content on the page-->
+    <div id="wrapper">
+        <!--this div holds and "wraps around/together" all content on the page-->
 
         <h1>Lamin Y Sanyang</h1>
 
@@ -62,19 +74,20 @@
 
         <div id="nav">
 
-            
-            
-            <a href="#bio">BIO</a>
-            <a href="#school">SCHOOLING</a>
-            <a href="#hobbies">HOBBIES</a>
-            <a href="#footer">Bottom of Page</a>
 
-        </div><!--/ #nav-->
+
+            <a href="index.html" class="link">HOME</a>
+            <a href="schools.html" class="link">SCHOOLS</a>
+            <a href="hobbies.html" class="link">HOBBIES</a>
+            <a href="https://www.neit.edu" class="link">NEIT</a>
+
+        </div>
+        <!--/ #nav-->
 
         <!--BIO SECTION--------------------------------->
-        <div id="bio"> 
+        <div id="bio">
 
-            <h2>About Me</h2>
+            <h2></h2>
 
             <p>Hi my name is Lamin, I currently reside in providence.I am a pisces and I consider myself as an
                 extrovert.However, I
@@ -98,50 +111,15 @@
                     *src  provides the path to the image file, either remote or relative
                     *alt  provides alternative text for written page display if image link is broken OR for accessibility of screenreaders-->
 
-            
+
             <!--RELATIVE img link example-->
-            
 
-        </div><!--/ #bio-->
 
-        <!--SCHOOLING SECTION-------------------------->
-        <div id="school"> 
+        </div>
+        <!--/ #bio-->
 
-            <h2>Schooling</h2>
 
-            <ol>
 
-                <li>New England Institute Of Technology<li>
-                <li>Navarro College</li>
-                <li>Saint Augustines High School</li>
-
-            
-
-            
-
-        </div><!--/ #school-->
-
-        <!--HOBBIES SECTION---------------------------->
-
-        <div id="hobbies"> 
-            <h2>Hobbies</h2>
-
-            <ul>
-
-                <li>Playing Soccer</li>
-                <li>Working out/GYM</li>
-                <li>Travelling/Road Trips</li>
-
-            </ul>
-
-            <e</p>
-
-            <br>
-            <br>
-
-            
-
-        </div><!--/ #hobbies-->
 
         <!--FOOTER SECTION----------------------------->
 
@@ -149,5 +127,4 @@
             <p>&copy; 2022 | SE111 class="2022"></SE111>
                 <br>
                 <!--break-->
-                <a href="#header ">back to top</a><div id="footer" >
-            
+                <a href="#header ">back to top</a>

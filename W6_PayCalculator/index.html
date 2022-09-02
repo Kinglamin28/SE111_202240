@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W6 | PAY CALCULATOR</title>
+
+    <style>
+        /*everything in here is written in CSS*/
+        body {
+            background-color:grey;
+        }
+    </style>
+</head>
+<body>
+    <!--we should have some sort of HTML in the page before writing JS-->
+    <h1>Week 6 | Javascript</h1>
+    <a href="index.html">Lamin</a> <a href="index-7.html">PAY CALCULATOR</a>
+
+    <!--IN DOCUMENT JAVASCRIPT-->
+    <script>
+        //everything in here must be written in JS
+        //here is a single line comment in JS
+
+        //in JS, all variables must be declared - use the keyword 'var'
+
+        
+
+        var workhours = prompt("Enter hour_work")
+        var pay = prompt("Enter payrate")
+        var gross = workhours * pay
+        var tax = gross * .20
+        var net = gross - tax
+        alert(`The gross pay is: $${gross.toFixed(2)}\nThe Tax  is: $${tax.toFixed(2)}\nThe Netpay is :$${net.toFixed(2)}`)
+
+
+
+        console.log(`The Gross pay is:$${gross.toFixed(2)}`)
+        console.log(`The Tax is:     :$${tax.toFixed(2)}`)
+        console.log(`The Netpay is   :$${net.toFixed(2)}`)
+
+
+
+
+
+
+
+        
+        
+
+    </script>
+</body>
+</html>
